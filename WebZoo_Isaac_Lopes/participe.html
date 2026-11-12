@@ -1,0 +1,31 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Participe dos programas de educação ambiental do WebZoo."><title>Participe | WebZoo</title><link rel="icon" href="assets/logo/favicon.png" type="image/png"><link rel="stylesheet" href="css/style.css"><script src="js/cep.js" defer></script><script src="js/formulario.js" defer></script></head><body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+<header class="site-header"><div class="header-inner">
+<a href="index.html" aria-label="WebZoo — página inicial"><img class="logo" src="assets/logo/webzoo_logo.png" alt="WebZoo"></a>
+<button class="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="primary-navigation" aria-expanded="false">☰</button>
+<nav class="site-nav" id="primary-navigation" aria-label="Navegação principal"><a href="index.html">Início</a><a href="animais.html">Animais</a><a href="visite.html">Visite</a><a href="participe.html" aria-current="page">Participe</a></nav>
+</div></header><main id="conteudo"><section class="container page-intro"><p class="eyebrow">Atitude que transforma</p><h1>Faça parte do WebZoo</h1><p class="lead">Cadastre-se para receber novidades, sugerir conteúdos ou agendar uma visita com a sua escola. Preservar a natureza é uma tarefa coletiva, e toda participação é bem-vinda.</p></section>
+<section class="section section--white"><div class="container"><h2>Programas de educação ambiental</h2><div class="grid grid--2"><article class="card card-body"><h3>Zoo Escola</h3><p>Visitas guiadas para turmas do ensino fundamental e médio, com roteiro adaptado à idade dos estudantes.</p></article><article class="card card-body"><h3>Guardiões da Fauna</h3><p>Oficinas mensais para crianças e adolescentes sobre os animais brasileiros e seus ambientes.</p></article><article class="card card-body"><h3>Noite no Zoo</h3><p>Passeio noturno monitorado para conhecer os animais de hábitos noturnos.</p></article><article class="card card-body"><h3>Professor Parceiro</h3><p>Materiais gratuitos e encontros de formação para educadores.</p></article></div></div></section>
+<section class="section"><div class="container"><h2>Formulário de participação</h2><p class="notice">Site acadêmico: não informe dados pessoais reais. Este formulário é demonstrativo e não envia nem armazena informações.</p><form id="participation-form" novalidate><div class="form-grid">
+<div class="field"><label for="name">Nome completo *</label><input id="name" name="name" autocomplete="name" required><span id="name-error" class="field-error"></span></div>
+<div class="field"><label for="email">E-mail *</label><input id="email" name="email" type="email" autocomplete="email" required><span id="email-error" class="field-error"></span></div>
+<div class="field"><label for="phone">Telefone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+<div class="field"><label for="cep">CEP *</label><input id="cep" name="cep" inputmode="numeric" autocomplete="postal-code" maxlength="8" required><span id="cep-error" class="field-error"></span></div>
+<div class="field full"><button id="cep-button" type="button">Buscar endereço pelo CEP</button><p id="cep-result" class="api-result" aria-live="polite"></p></div>
+<div class="field"><label for="street">Rua</label><input id="street" name="street" autocomplete="address-line1" readonly></div>
+<div class="field"><label for="neighborhood">Bairro</label><input id="neighborhood" name="neighborhood" readonly></div>
+<div class="field"><label for="city">Cidade</label><input id="city" name="city" autocomplete="address-level2" readonly></div>
+<div class="field"><label for="state">Estado</label><input id="state" name="state" autocomplete="address-level1" readonly></div>
+<div class="field"><label for="number">Número</label><input id="number" name="number"></div>
+<div class="field"><label for="subject">Assunto *</label><select id="subject" name="subject" required><option value="">Selecione</option><option>Receber novidades</option><option>Visita escolar</option><option>Sugerir conteúdo</option><option>Outro</option></select><span id="subject-error" class="field-error"></span></div>
+<div class="field"><label for="favorite">Animal favorito</label><select id="favorite" name="favorite"><option>Onça-pintada</option><option>Tucano-toco</option><option>Capivara</option></select></div>
+<div class="field full"><label for="message">Mensagem *</label><textarea id="message" name="message" required minlength="10"></textarea><span id="message-error" class="field-error"></span></div>
+<div class="field full"><label><input id="consent" name="consent" type="checkbox" required> Aceito receber comunicações do WebZoo.</label></div>
+</div><p id="form-status" class="api-result" aria-live="polite"></p><button type="submit">Enviar cadastro</button></form></div></section>
+<section class="section section--white"><div class="container"><h2>Como você pode ajudar</h2><ul><li>Descarte o lixo nos locais adequados.</li><li>Observe os animais sem tocar ou oferecer alimentos.</li><li>Respeite a vegetação e os espaços de preservação.</li><li>Nunca compre animais silvestres sem origem legal.</li><li>Reduza o uso de plásticos descartáveis.</li><li>Economize água e energia.</li><li>Ao dirigir perto de áreas naturais, reduza a velocidade.</li><li>Compartilhe o que aprendeu com familiares e amigos.</li></ul></div></section></main>
+<footer class="site-footer"><div class="container footer-grid">
+<section><h2>WebZoo</h2><p>Conhecer para preservar. Projeto acadêmico desenvolvido na disciplina de Front-End — SENAI “Comendador Santoro Mirone”.</p><p class="small">Conteúdo educativo demonstrativo. Horários e ingressos são fictícios.</p></section>
+<section><h2>Encontre-nos</h2><address>Zoológico de São Paulo<br>Av. Miguel Estéfano, 4241 — Água Funda<br>São Paulo — SP · CEP 04301-905</address><p class="small">Créditos: ViaCEP (consulta de CEP) · Open-Meteo (previsão do tempo). Imagens fornecidas no material da atividade.</p></section>
+</div></footer>
+<script src="js/menu.js" defer></script>
+</body></html>
